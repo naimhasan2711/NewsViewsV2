@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">NewsViews</string>
+    <string name="name_title">MD NAKIBUL HASSAN</string>
+    <string name="email_text">nakibulhasan111@gmail.com</string>
+    <string name="desc_text">I am very passionate about programming since my University life.
+        I love solve programming problems from various online judges.
+        I like graph theory most of all and dynamic programming.
+        As a CSE graduate, I am deeply interested in working with various fields of AI.
+        After finishing graduation,
+        I am seeking for a position in a reputated company where I can utilize my skills. </string>
+    <string name="description_text">This is simple pet project named Newsviews. I was given to me as the purpose of recruitment process at Rokomari.com </string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
 </resources>

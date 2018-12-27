@@ -40,6 +40,8 @@ public class IntroductionActivity extends AppCompatActivity
             finish();
         }
 
+
+
         // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= 21) {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
@@ -47,15 +49,17 @@ public class IntroductionActivity extends AppCompatActivity
 
         setContentView(R.layout.activity_introduction);
 
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
-        dotsLayout = (LinearLayout) findViewById(R.id.layoutDots);
-        btnSkip = (Button) findViewById(R.id.btn_skip);
-        btnNext = (Button) findViewById(R.id.btn_next);
+        viewPager = findViewById(R.id.view_pager);
+        dotsLayout = findViewById(R.id.layoutDots);
+        btnSkip = findViewById(R.id.btn_skip);
+        btnNext = findViewById(R.id.btn_next);
 
-        layouts = new int[]{
+        layouts = new int[]
+                {
                 R.layout.intro_slide_1,
                 R.layout.intro_slide_2,
-                R.layout.intro_slide_3};
+                R.layout.intro_slide_3
+                };
 
         // adding bottom dots
         addBottomDots(0);
@@ -89,6 +93,9 @@ public class IntroductionActivity extends AppCompatActivity
             }
         });
     }
+
+
+
 
     private void addBottomDots(int currentPage) {
         dots = new TextView[layouts.length];

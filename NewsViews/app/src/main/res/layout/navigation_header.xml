@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="15dp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@color/bg_screen3">
+
+
+    <ImageView
+        android:id="@+id/navigation_drwayer_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/john"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/navigation_drawyer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md Nakibul Hassan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#111111"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/navigation_drawyer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nakibulhasan111@gmail.com"
+        android:textColor="#111111"/>
+
+</LinearLayout>

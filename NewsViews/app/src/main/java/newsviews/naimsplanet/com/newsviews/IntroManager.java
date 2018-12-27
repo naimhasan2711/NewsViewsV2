@@ -16,8 +16,10 @@ public class IntroManager
     private static final String PREF_NAME = "intro-welcome";
 
     private static final String IS_FIRST_TIME_LAUNCH = "IsFirstTimeLaunch";
+    private static final String IS_SECOND_TIME_LAUNCH = "IsSecondTimeLaunch";
 
-    public IntroManager(Context context) {
+    public IntroManager(Context context)
+    {
         this._context = context;
         sharedPreferences = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
         editor = sharedPreferences.edit();
@@ -31,4 +33,5 @@ public class IntroManager
     public boolean isFirstTimeLaunch() {
         return sharedPreferences.getBoolean(IS_FIRST_TIME_LAUNCH, true);
     }
+
 }

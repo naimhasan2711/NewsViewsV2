@@ -11,4 +11,6 @@
     <string name="description_text">This is simple pet project named Newsviews. I was given to me as the purpose of recruitment process at Rokomari.com </string>
     <string name="start">Start</string>
     <string name="next">Next</string>
+    <string name="open_navigation">Open Navigation Drawer</string>
+    <string name="close_navigation">Close Navigation Drawer</string>
 </resources>

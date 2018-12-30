@@ -1,4 +1,4 @@
-package newsviews.naimsplanet.com.newsviews;
+package newsviews.naimsplanet.com.newsviews.intro;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,9 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import newsviews.naimsplanet.com.newsviews.R;
+import newsviews.naimsplanet.com.newsviews.activity.HomeActivity;
 
 public class IntroductionActivity extends AppCompatActivity
 {

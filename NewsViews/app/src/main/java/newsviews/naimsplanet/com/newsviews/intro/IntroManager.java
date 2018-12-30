@@ -1,4 +1,4 @@
-package newsviews.naimsplanet.com.newsviews;
+package newsviews.naimsplanet.com.newsviews.intro;
 
 import android.content.Context;
 import android.content.SharedPreferences;

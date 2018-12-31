@@ -13,4 +13,6 @@
     <string name="next">Next</string>
     <string name="open_navigation">Open Navigation Drawer</string>
     <string name="close_navigation">Close Navigation Drawer</string>
+    <string name="project_description">This is a NewsViews app. A news reading app. This is a pet project, which was given to all the candidate who attended the Rokomari Twenty-20 Android Hunt
+                  recruitment process. There is a public api for news reading. We had to fetch data from there. Also design some UI like navigation drawer. There are some plus point in the project. Having great time while developing this app. </string>
 </resources>
